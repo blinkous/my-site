@@ -8,11 +8,16 @@
 }
 #circle-svg{
   width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.253); */
 }
 #circle-svg circle{
   /* fill: white; */
+  /* fill: url("#circleDarkGradient"); */
   fill: url("#circleGlowGradient");
   animation: confetti-falling 10s linear infinite;  
+}
+circl#confetti-0{
+  fill: blue;
 }
 circle#confetti-1, circle#confetti-21, circle#confetti-41, circle#confetti-61{
   animation-delay: 1s;

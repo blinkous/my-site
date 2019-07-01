@@ -4,21 +4,30 @@ import '../css/confetti.css';
 export default class Confetti extends Component{
   circle = {
     radius1: 10,
-    startingY: -10,
+    startingY: -100,
     gradientInner: "#ffffff",
     gradientOuter: "#ffffff00",
+    gradientDarkInner: "#00000099",
+    gradientDarkOuter: "#00000000",
+    width: 1000,
+    height: 1000
   };
   render() { 
   return (
     <React.Fragment>
     <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
-    width="1000" height="1000" viewBox="0 0 1000 1000" id="circle-svg">
+    width={this.circle.width} height={this.circle.height} viewBox="0 0 1000 800" id="circle-svg">
       <defs>
         <radialGradient id="circleGlowGradient">
           <stop offset="0%" stopColor={this.circle.gradientInner}/>
           <stop offset="100%" stopColor={this.circle.gradientOuter}/>
         </radialGradient>
+        <radialGradient id="circleDarkGradient">
+          <stop offset="0%" stopColor={this.circle.gradientDarkInner}/>
+          <stop offset="100%" stopColor={this.circle.gradientDarkOuter}/>
+        </radialGradient>
       </defs>
+      <circle cx="0" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-0"></circle>
       <circle cx="20" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-1"></circle>
       <circle cx="50" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-2"></circle>
       <circle cx="80" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-3"></circle>
@@ -28,13 +37,13 @@ export default class Confetti extends Component{
       <circle cx="200" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-7"></circle>
       <circle cx="90" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-8"></circle>
       <circle cx="100" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-9"></circle>
-      <circle cx="20" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-10"></circle>
-      <circle cx="25" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-11"></circle>
-      <circle cx="29" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-12"></circle>
+      <circle cx="-100" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-10"></circle>
+      <circle cx="-10" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-11"></circle>
+      <circle cx="-20" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-12"></circle>
       <circle cx="40" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-13"></circle>
       <circle cx="300" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-14"></circle>
       <circle cx="250" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-15"></circle>
-      <circle cx="50" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-16"></circle>
+      <circle cx="-90" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-16"></circle>
       <circle cx="90" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-17"></circle>
       <circle cx="220" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-18"></circle>
       <circle cx="140" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-19"></circle>
