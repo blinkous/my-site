@@ -9,23 +9,18 @@ const Diamonds = ({props}) => {
       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 400" id="diamonds-svg">
         <defs>
           <radialGradient id="upGradient" cx="0.5" cy=".9" r="0.9">
-            {/* <stop offset="0%" stopColor="#dcd6ff"/>
-            <stop offset="33%" stopColor="#d9bdff"/>
-            <stop offset="66%" stopColor="#dabfff"/>
-            <stop offset="100%" stopColor="#d9bdff"/> */}
-            <stop offset="0%" stopColor="#e7d1ff"/>
-            <stop offset="33%" stopColor="#d6c4ff"/>
-            <stop offset="66%" stopColor="#cac4ff"/>
-            <stop offset="100%" stopColor="#c6b8ff"/>
+            <stop offset="0%" stopColor="#ecdeff"/>
+            <stop offset="33%" stopColor="#d7d4ff"/>
+            <stop offset="66%" stopColor="#d1d2ff"/>
+            <stop offset="100%" stopColor="#c7d2ff"/>
           </radialGradient>
           <radialGradient id="downGradient" cx="0.5" cy="0.1" r="0.9">
-            <stop offset="0%" stopColor="#e7d1ff"/>
-            <stop offset="33%" stopColor="#d6c4ff"/>
-            <stop offset="66%" stopColor="#cac4ff"/>
-            <stop offset="100%" stopColor="#c6b8ff"/>
+            <stop offset="0%" stopColor="#ecdeff"/>
+            <stop offset="33%" stopColor="#d7d4ff"/>
+            <stop offset="66%" stopColor="#d1d2ff"/>
+            <stop offset="100%" stopColor="#c7d2ff"/>
           </radialGradient>
         </defs>
-        <defs>
         <g id="diamonds-pattern">
           <path className="up-tri" d="M60.86 38.28L78.6 65.16H7.63l17.74-26.88L43.12 11.4l17.74 26.88z" id="a"/>
           <path className="down-tri" d="M60.86 97.42L78.6 70.54H7.63l17.74 26.88 17.75 26.88 17.74-26.88z" id="b"/>
@@ -101,11 +96,6 @@ const Diamonds = ({props}) => {
           <path className="down-tri" d="M643.66 177.03l12.36-20.88h-49.46l12.36 20.88 12.37 20.89 12.37-20.89z" id="as"/>
           <path className="down-tri" d="M654.52 21.43l17.74-26.88h-70.97l17.74 26.88 17.74 26.88 17.75-26.88z" id="at"/>
         </g>
-        </defs>
-        <use xlinkHref="#diamonds-pat-left" id="diamonds-left"/>
-        <use xlinkHref="#diamonds-pat-right" id="diamonds-right"/>
-        <use xlinkHref="#diamonds-pattern" id="diamonds-left"/>
-        <use xlinkHref="#diamonds-pattern" id="diamonds-right"/>
       </svg>
     );
   };

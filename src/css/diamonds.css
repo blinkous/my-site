@@ -1,5 +1,5 @@
 #diamonds-svg{
-  width: 50%;
+  /* width: 50%; */
   /* background-color: black; */
 }
 #diamonds-svg path{
@@ -20,16 +20,4 @@
 #diamonds-svg path:hover{
   animation: diamond-hover 0.4s linear;
   opacity: 0.5;
-}
-#diamonds-left{
-  /* float: left; */
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#diamonds-right{
-  /* float: right; */
-  position: absolute;
-  top: 0;
-  right: 0;
 }

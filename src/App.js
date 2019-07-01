@@ -8,12 +8,10 @@ export default class App extends Component {
   render() { 
     return ( 
       <React.Fragment>  
-        <h1>hello</h1>
         <Diamonds/>
-        <Diamonds/>
-        <h1>hello</h1>
-        <Confetti/>
-        <h1>hello</h1>
+        <div className="confetti-home">
+          <Confetti id="confetti-1"/>
+        </div>
       </React.Fragment>
     );
   }
