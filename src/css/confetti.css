@@ -6,13 +6,15 @@
   80%  {transform: translateY(700px) translateX(-5px) scale(0.7); opacity: 0.2}
   100%  {transform: translateY(800px) translateX(10px) scale(0.6); opacity: 0;}
 }
-#circle-svg{
+#circle-svg, #circle-svg-group{
   width: 100%;
+  /* z-index: 0; */
 }
-#circle-svg circle{
+#circle-svg circle, #circle-svg-group.circle{
   /* fill: white; */
   fill: url("#circleGlowGradient");
-  animation: confetti-falling 10s linear infinite;  
+  animation: confetti-falling 10s linear infinite; 
+  /* z-index: 0;  */
 }
 circle#confetti-1, circle#confetti-21, circle#confetti-41, circle#confetti-61{
   animation-delay: 1s;

@@ -21,3 +21,6 @@
   animation: diamond-hover 0.4s linear;
   opacity: 0.5;
 }
+#j, #k{
+  z-index: 1;
+}

@@ -4,7 +4,7 @@ import '../css/confetti.css';
 export default class Confetti extends Component{
   circle = {
     radius1: 10,
-    startingY: -10,
+    startingY: -100,
     gradientInner: "#ffffff",
     gradientOuter: "#ffffff00",
   };
