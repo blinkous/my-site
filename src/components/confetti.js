@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../css/confetti.css';
 
 export default class Confetti extends Component{
+  // Properties for the circle
   circle = {
     radius1: 10,
     startingY: -100,
@@ -17,6 +18,7 @@ export default class Confetti extends Component{
     <React.Fragment>
     <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
     width={this.circle.width} height={this.circle.height} viewBox="0 0 1000 800" id="circle-svg">
+      {/* Defining gradients to be used as fill for the circles */}
       <defs>
         <radialGradient id="circleGlowGradient">
           <stop offset="0%" stopColor={this.circle.gradientInner}/>
@@ -27,6 +29,7 @@ export default class Confetti extends Component{
           <stop offset="100%" stopColor={this.circle.gradientDarkOuter}/>
         </radialGradient>
       </defs>
+      {/* Drawing a series of circles that span the top that will mimic falling dots when animated, each circle varies in x position and has a specific id that is used to specify an animation delay */}
       <circle cx="0" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-0"></circle>
       <circle cx="20" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-1"></circle>
       <circle cx="50" cy={this.circle.startingY} r={this.circle.radius1} id="confetti-2"></circle>

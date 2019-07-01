@@ -1,12 +1,6 @@
-#myName{
-}
 #myName path{
-  fill: rgb(94, 0, 156);
   fill: url("#nameGradient");
 }
-
 #white-name path{
   fill: white;
-  position: absolute;
-  top: 0;
 }

@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import '../css/diamonds.css';
-// import diamonds from '../images/diamonds.svg';
 
-const Diamonds = ({props}) => {
-// export default className Diamonds extends Component {
-  // render() { 
+export default class Diamonds extends Component {
+  render() { 
     return (
       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 400" id="diamonds-svg">
+        {/* Defining gradients to be used to fill the up and down triangles "diamonds", the colors come from the props from App.js */}
         <defs>
           <radialGradient id="upGradient" cx="0.5" cy=".9" r="0.9">
-            <stop offset="0%" stopColor="#ecdeff"/>
-            <stop offset="33%" stopColor="#d7d4ff"/>
-            <stop offset="66%" stopColor="#d1d2ff"/>
-            <stop offset="100%" stopColor="#c7d2ff"/>
+            <stop offset="0%" stopColor={this.props.innerMostColor}/>
+            <stop offset="33%" stopColor={this.props.innerColorSec}/>
+            <stop offset="66%" stopColor={this.props.outerColorSec}/>
+            <stop offset="100%" stopColor={this.props.outerMostColor}/>
           </radialGradient>
           <radialGradient id="downGradient" cx="0.5" cy="0.1" r="0.9">
-            <stop offset="0%" stopColor="#ecdeff"/>
-            <stop offset="33%" stopColor="#d7d4ff"/>
-            <stop offset="66%" stopColor="#d1d2ff"/>
-            <stop offset="100%" stopColor="#c7d2ff"/>
+            <stop offset="0%" stopColor={this.props.innerMostColor}/>
+            <stop offset="33%" stopColor={this.props.innerColorSec}/>
+            <stop offset="66%" stopColor={this.props.outerColorSec}/>
+            <stop offset="100%" stopColor={this.props.outerMostColor}/>
           </radialGradient>
         </defs>
+        {/* Grouping of diamonds, left and right diamonds are those that are cut off on the left and right edges of the viewbox. up and down tri classes are defined to specify the gradient fill that should be applied */}
         <g id="diamonds-pattern">
           <path className="up-tri" d="M60.86 38.28L78.6 65.16H7.63l17.74-26.88L43.12 11.4l17.74 26.88z" id="a"/>
           <path className="down-tri" d="M60.86 97.42L78.6 70.54H7.63l17.74 26.88 17.75 26.88 17.74-26.88z" id="b"/>
@@ -99,6 +99,4 @@ const Diamonds = ({props}) => {
       </svg>
     );
   };
-// }
-
-export default Diamonds;
+}

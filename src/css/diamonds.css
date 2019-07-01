@@ -1,12 +1,3 @@
-#diamonds-svg{
-  /* width: 50%; */
-  /* background-color: black; */
-}
-#diamonds-svg path{
-  /* fill: #be8ef3; */
-  /* fill: #c0bcff; */
-  /* fill: url("#RadialGradient1"); */
-}
 #diamonds-svg path.up-tri{
   fill: url("#upGradient");
 }

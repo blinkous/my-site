@@ -1,10 +1,16 @@
+@keyframes fade-in{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
 .confetti-home{
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   /* background-color: rgba(250, 232, 232, 0.26); */
+  /* background-color: rgba(243, 232, 250, 0.26); */
   z-index: 0;
+  animation: fade-in 0.5s ease-in;
 }
 h1.my-name{
   z-index: 1;
@@ -21,6 +27,9 @@ div.myDiamonds{
   width: 100%;
   position: absolute;
   top: 0;
+}
+div.myName{
+  animation: fade-in 1s linear;
 }
 div.myName, #white-name{
   z-index: 2;
