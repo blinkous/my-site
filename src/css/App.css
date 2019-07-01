@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+#diamonds-left{
+  /* position: absolute;
+  left: 0;
+  width: 50%; */
+  float: left;
+}
+#diamonds-right{
+  float: right;
+}

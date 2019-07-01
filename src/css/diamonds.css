@@ -1,0 +1,23 @@
+#diamonds-svg{
+  /* width: 100%; */
+  /* background-color: black; */
+}
+#diamonds-svg path{
+  /* fill: #be8ef3; */
+  /* fill: #c0bcff; */
+  /* fill: url("#RadialGradient1"); */
+}
+#diamonds-svg path.up-tri{
+  fill: url("#upGradient");
+}
+#diamonds-svg path.down-tri{
+  fill: url("#downGradient");
+}
+@keyframes diamond-hover{
+  0%  {opacity: 1.0}
+  100%  {opacity: 0.5}
+}
+#diamonds-svg path:hover{
+  animation: diamond-hover 0.4s linear;
+  opacity: 0.5;
+}
