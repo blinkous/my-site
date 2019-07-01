@@ -12,6 +12,9 @@ export default class App extends Component {
         {/* <h1 className="my-name">Sara Dhani</h1> */}
         <div className="myName">
           <MyName />
+          <div id="white-name">
+            <MyName />
+          </div>
         </div>
         <div className="myDiamonds">
           <Diamonds/>
