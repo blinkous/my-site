@@ -1,9 +1,16 @@
 .bubble{
-  z-index: 2;
   border-radius: 100%;
-  background-color: pink;
+  background-color: #8587ff;
   width: 200px;
   height: 200px;
-  position: absolute;
-  top: 60%;
+  color: white;
+}
+.bubble h3{
+  text-align: center;
+  position: relative;
+  top: 30%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 150%;
 }

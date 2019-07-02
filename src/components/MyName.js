@@ -4,7 +4,7 @@ import '../css/myName.css';
 class MyName extends Component {
   render() {
     return ( 
-      <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2221 1110" id="myName">
+      <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2221 900" id="myName">
         <defs>
           {/* defining a gradient fill that will be used for the text using colors from the prop */}
           <linearGradient id="nameGradient" x1="0%" y1="0%" x2="0%" y2="100%">

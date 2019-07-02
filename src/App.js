@@ -15,26 +15,29 @@ export default class App extends Component {
       stopColor: "#ac99c7",
     },
     diamonds: {
-      // outerMostColor: "black",
-      // outerColorSec: "blue",
-      // innerColorSec: "blueviolet",
-      // innerMostColor: "pink"
       outerMostColor: "#c7d2ff",
       outerColorSec: "#d1d2ff",
       innerColorSec: "#d7d4ff",
-      innerMostColor: "#ecdeff"
+      innerMostColor: "#f3ebff"
     }
   };
-  
-  // constructor(props) {
-  //   super(props);
-  //   // console.log('app constructor', this.props);
-  //   // this.state = this.props.something; // in the constructor, you use = to set the state
-  // }
 
   render() { 
     return ( 
       <React.Fragment>  
+        <div className="myDiamonds">
+          <Diamonds
+            outerMostColor={this.state.diamonds.outerMostColor}
+            outerColorSec={this.state.diamonds.outerColorSec}
+            innerColorSec={this.state.diamonds.innerColorSec}
+            innerMostColor={this.state.diamonds.innerMostColor}
+          />
+        </div>
+
+        <div className="confetti-home">
+          <Confetti/>
+        </div>
+
         <div className="myName">
           <MyName 
             startColor={this.state.name.startColor}
@@ -44,18 +47,12 @@ export default class App extends Component {
             <MyName />
           </div>
         </div>
-        <div className="myDiamonds">
-          <Diamonds
-            outerMostColor={this.state.diamonds.outerMostColor}
-            outerColorSec={this.state.diamonds.outerColorSec}
-            innerColorSec={this.state.diamonds.innerColorSec}
-            innerMostColor={this.state.diamonds.innerMostColor}
-          />
+        
+        <div className="titleBubbles">
+          <Bubble title="Programmer" myID="bubble1"/>
+          <Bubble title="Designer" myID="bubble2"/>
+          <Bubble title="Crafter" myID="bubble3"/>
         </div>
-        <div className="confetti-home">
-          <Confetti/>
-        </div>
-        <Bubble />
       </React.Fragment>
     );
   }

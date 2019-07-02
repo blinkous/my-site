@@ -5,8 +5,8 @@ class Bubble extends Component {
   state = {  }
   render() { 
     return ( 
-      <div className="bubble">
-
+      <div className="bubble" id={this.props.myID}>
+        <h3>{this.props.title}</h3>
       </div>
     );
   }
