@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/blinkous/my-site/static/css/main.8d83e693.chunk.css",
-    "main.js": "/blinkous/my-site/static/js/main.5dc8b782.chunk.js",
-    "main.js.map": "/blinkous/my-site/static/js/main.5dc8b782.chunk.js.map",
-    "runtime~main.js": "/blinkous/my-site/static/js/runtime~main.1a8ec44f.js",
-    "runtime~main.js.map": "/blinkous/my-site/static/js/runtime~main.1a8ec44f.js.map",
-    "static/js/2.d6a534e5.chunk.js": "/blinkous/my-site/static/js/2.d6a534e5.chunk.js",
-    "static/js/2.d6a534e5.chunk.js.map": "/blinkous/my-site/static/js/2.d6a534e5.chunk.js.map",
-    "index.html": "/blinkous/my-site/index.html",
-    "precache-manifest.9d093823fe23792e5efe8dfd3a04b3d9.js": "/blinkous/my-site/precache-manifest.9d093823fe23792e5efe8dfd3a04b3d9.js",
-    "service-worker.js": "/blinkous/my-site/service-worker.js",
-    "static/css/main.8d83e693.chunk.css.map": "/blinkous/my-site/static/css/main.8d83e693.chunk.css.map"
+    "main.css": "/my-site/static/css/main.8d83e693.chunk.css",
+    "main.js": "/my-site/static/js/main.244db8e4.chunk.js",
+    "main.js.map": "/my-site/static/js/main.244db8e4.chunk.js.map",
+    "runtime~main.js": "/my-site/static/js/runtime~main.0ae2f0e4.js",
+    "runtime~main.js.map": "/my-site/static/js/runtime~main.0ae2f0e4.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/my-site/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/my-site/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/my-site/index.html",
+    "precache-manifest.2fc2b7617de572a1ac3a4a7e1d856255.js": "/my-site/precache-manifest.2fc2b7617de572a1ac3a4a7e1d856255.js",
+    "service-worker.js": "/my-site/service-worker.js",
+    "static/css/main.8d83e693.chunk.css.map": "/my-site/static/css/main.8d83e693.chunk.css.map"
   }
 }
