@@ -1,0 +1,9 @@
+.bubble{
+  z-index: 2;
+  border-radius: 100%;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 60%;
+}

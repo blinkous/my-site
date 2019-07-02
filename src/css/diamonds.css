@@ -4,11 +4,42 @@
 #diamonds-svg path.down-tri{
   fill: url("#downGradient");
 }
-@keyframes diamond-hover{
+/* @keyframes diamond-hover{
   0%  {opacity: 1.0}
   100%  {opacity: 0.5}
 }
 #diamonds-svg path:hover{
   animation: diamond-hover 0.4s linear;
   opacity: 0.5;
+} */
+@keyframes diamonds-twinkle{
+  /* 0% {transform: scale(1); opacity: 1}
+  50% {transform: scale(1.02); opacity: 0.7}
+  100% {transform: scale(1); opacity: 1} */
+  0% {transform: skewX(0deg); opacity: 1}
+  50% {transform: skewX(0.5deg); opacity: 0.7}
+  100% {transform: skewX(0deg); opacity: 1}
+}
+#diamonds-svg path{
+  animation: diamonds-twinkle linear infinite;
+}
+#diamonds-svg path.delay-1{
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+#diamonds-svg path.delay-2{
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+#diamonds-svg path.delay-3{
+  animation-duration: 4s;
+  animation-delay: 3s;
+}
+#diamonds-svg path.delay-4{
+  animation-duration: 1s;
+  animation-delay: 4s;
+}
+#diamonds-svg path.delay-5{
+  animation-duration: 2s;
+  animation-delay: 5s;
 }

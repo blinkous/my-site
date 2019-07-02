@@ -3,15 +3,22 @@ import './css/App.css';
 import Diamonds from './components/Diamonds';
 import Confetti from './components/confetti';
 import MyName from './components/MyName';
+import Bubble from './components/Bubble';
 
 export default class App extends Component {
-  // centralizing color control
+  // centralizing color control for name and diamond elements
   state = { 
     name: {
+      // startColor: "red",
+      // stopColor: "blue",
       startColor: "#7c8ccf",
       stopColor: "#ac99c7",
     },
     diamonds: {
+      // outerMostColor: "black",
+      // outerColorSec: "blue",
+      // innerColorSec: "blueviolet",
+      // innerMostColor: "pink"
       outerMostColor: "#c7d2ff",
       outerColorSec: "#d1d2ff",
       innerColorSec: "#d7d4ff",
@@ -19,11 +26,11 @@ export default class App extends Component {
     }
   };
   
-  constructor(props) {
-    super(props);
-    console.log('app constructor', this.props);
-    // this.state = this.props.something; // in the constructor, you use = to set the state
-  }
+  // constructor(props) {
+  //   super(props);
+  //   // console.log('app constructor', this.props);
+  //   // this.state = this.props.something; // in the constructor, you use = to set the state
+  // }
 
   render() { 
     return ( 
@@ -48,6 +55,7 @@ export default class App extends Component {
         <div className="confetti-home">
           <Confetti/>
         </div>
+        <Bubble />
       </React.Fragment>
     );
   }
