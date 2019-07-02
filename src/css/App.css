@@ -51,7 +51,7 @@ div.titleBubbles{
 }
 #bubble1, #bubble2, #bubble3{
   display: inline-block;
-  margin: 0 5%;
+  margin: 5px 5%;
   animation: bubble-slide-in 1s linear;
 }
 /* #bubble1{
@@ -73,6 +73,9 @@ div.titleBubbles{
 @media (max-width: 768px) {
   .confetti-home{
     top: -20%;
+  }
+  div.myName{
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
