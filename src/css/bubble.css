@@ -1,6 +1,7 @@
 .bubble{
   border-radius: 100%;
-  background-color: #8587ff;
+  /* background-color: #8587ff; */
+  background-color: #ff2a7c;
   width: 200px;
   height: 200px;
   color: white;
@@ -13,4 +14,11 @@
   letter-spacing: 1px;
   font-weight: normal;
   font-size: 150%;
+}
+.bubble:hover{
+  background-color: rgb(255, 255, 255);
+  color: #8587ff;
+  /* background: linear-gradient(to bottom, rgb(115, 176, 255) 0%, rgb(33, 129, 255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
