@@ -22,7 +22,6 @@ div.myDiamonds{
 div.myName{
   animation: fade-in 1s linear;
   position: relative;  
-  /* background-color: rgba(0, 128, 128, 0.678);  */
   margin: auto;
 }
 div.myName, #white-name{
@@ -38,10 +37,11 @@ div.myName, #white-name{
 
 div.titleBubbles{
   z-index: 3;
-  /* background-color: rgba(0, 128, 128, 0.678);  */
-  position: absolute;
+  /* this positioning allows the z-index to take effect */
+  position: relative; 
   width: 100%;
   text-align: center;
+  /* background-color: rgba(0, 128, 128, 0.678);  */
 }
 @keyframes bubble-slide-in{
   0% {transform: translateY(30px); opacity: 0}
@@ -54,15 +54,17 @@ div.titleBubbles{
   margin: 5px 5%;
   animation: bubble-slide-in 1s linear;
 }
-/* #bubble1{
-  animation-delay: 1s;
+
+.experience.mycontainer{
+  position: relative;
+  z-index: 3;
+  margin-top: 100px;
 }
-#bubble2{
-  animation-delay: 2s;
+/* Overriding the bubble styling */
+#ProgrammerBubble h3{
+  top: 40%;
 }
-#bubble3{
-  animation-delay: 3s;
-} */
+
 
 /* The confetti keeps moving down as the window gets smaller, so this is my bootleg way of ensuring that it remains above the start of the window so that the user doesn't see them originating from the middle of the screen */
 @media (max-width: 1024px) {

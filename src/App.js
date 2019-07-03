@@ -4,6 +4,8 @@ import Diamonds from './components/Diamonds';
 import Confetti from './components/confetti';
 import MyName from './components/MyName';
 import Bubble from './components/Bubble';
+import BiggerBubble from './components/BiggerBubble';
+// import anim from './components/anim.js'
 
 export default class App extends Component {
   // centralizing color control for name and diamond elements
@@ -25,7 +27,7 @@ export default class App extends Component {
   render() { 
     return ( 
       <React.Fragment>  
-        <div className="myDiamonds">
+        <div className="myDiamonds mycontainer">
           <Diamonds
             outerMostColor={this.state.diamonds.outerMostColor}
             outerColorSec={this.state.diamonds.outerColorSec}
@@ -34,11 +36,11 @@ export default class App extends Component {
           />
         </div>
 
-        <div className="confetti-home">
+        <div className="confetti-home mycontainer">
           <Confetti/>
         </div>
 
-        <div className="myName">
+        <div className="myName mycontainer">
           <MyName 
             startColor={this.state.name.startColor}
             stopColor={this.state.name.stopColor}
@@ -48,10 +50,29 @@ export default class App extends Component {
           </div>
         </div>
         
-        <div className="titleBubbles">
-          <Bubble title="Programmer" myID="bubble1"/>
-          <Bubble title="Designer" myID="bubble2"/>
-          <Bubble title="Crafter" myID="bubble3"/>
+        <div className="titleBubbles mycontainer">
+          <a href="#Programmer">
+            <Bubble 
+            title="Programmer" 
+            myID="bubble1"
+            myStyle="red"
+          /></a>
+          <a href="#Designer">
+            <Bubble 
+            title="Designer" 
+            myID="bubble2"
+          /></a>
+          <a href="#Crafter">
+            <Bubble 
+            title="Crafter" 
+            myID="bubble3"
+          /></a>
+        </div>
+        <div className="experience mycontainer">
+          <BiggerBubble
+            myID="Programmer"
+            myClass="experience"
+            />
         </div>
       </React.Fragment>
     );

@@ -1,0 +1,8 @@
+.bigger-bubble{
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(168, 168, 168, 0.438);  
+}
