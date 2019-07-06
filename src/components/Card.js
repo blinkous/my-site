@@ -16,11 +16,17 @@ export default class Card extends Component {
           </a>
           <p className="date">{this.props.date}</p>
         </div>
-
-        <img src={this.props.coverImage} alt={this.props.imgAlt} />
+        <div className="cardLeft">
+          <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
+            <img src={this.props.coverImage} alt={this.props.imgAlt} />
+          </a>
+          <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
+            <img src={this.props.coverImage2} alt={this.props.imgAlt2} />
+          </a>
+        </div>
         <div className="cardRight">
           {children[0]}
-          <h5 className="stackTitle">Stack</h5>
+          <h5 className="stackTitle">Tech Stack</h5>
           {children[1]}
           {/* <a href={this.props.githubLink} target="_blank"><img src={GitHub_Logo_Black} alt="Github Project Link" title={`${this.props.projTitle} on GitHub`} className="github_logo"/></a> */}
         </div>
