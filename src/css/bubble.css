@@ -16,8 +16,10 @@
 }
 .bubble:hover{
   background-color: rgb(255, 255, 255);
+}
+.bubble:hover h3{
   color: #8587ff;
-  /* background: linear-gradient(to bottom, rgb(115, 176, 255) 0%, rgb(33, 129, 255) 100%);
+  background: linear-gradient(to bottom, #7c8ccf 0%, #ac99c7 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
 }

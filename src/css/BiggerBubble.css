@@ -1,8 +1,43 @@
+.bigger-bubble div{
+  margin: 0;
+  padding: 0;
+}
 .bigger-bubble{
   background-color: white;
   width: 90%;
-  margin: auto;
-  padding: 10px;
+  margin: 50px auto;
+  padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(168, 168, 168, 0.438);  
+}
+.bigger-bubble .titleHolder{
+  /* background-color: rgb(255, 192, 203); */
+  display: inline-block;
+  width: 25%;
+  min-width: 200px;
+}
+.bigger-bubble h2{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 175%;
+  background: linear-gradient(to bottom, #7c8ccf 0%, #ac99c7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  margin-top: 5px;
+}
+.bigger-bubble p.medSkills, .bigger-bubble p.begSkills{
+}
+.Learning, .Intermediate{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.skillsHolder{
+  color: grey;
+  float: right;
+  /* margin: 10px 0; */
+  width: 70%;
 }

@@ -61,8 +61,11 @@ div.titleBubbles{
   margin-top: 100px;
 }
 /* Overriding the bubble styling */
-#ProgrammerBubble h3{
-  top: 40%;
+#ProgrammerBubble h3, #DesignerBubble h3, #CrafterBubble h3{
+  /* top: 40%; */
+}
+#ProgrammerBubble, #DesignerBubble, #CrafterBubble{
+  display: inline-block;
 }
 
 

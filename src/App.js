@@ -5,14 +5,12 @@ import Confetti from './components/confetti';
 import MyName from './components/MyName';
 import Bubble from './components/Bubble';
 import BiggerBubble from './components/BiggerBubble';
-// import anim from './components/anim.js'
+import ProgrammerEx from './components/ProgrammerEx';
 
 export default class App extends Component {
   // centralizing color control for name and diamond elements
   state = { 
     name: {
-      // startColor: "red",
-      // stopColor: "blue",
       startColor: "#7c8ccf",
       stopColor: "#ac99c7",
     },
@@ -26,7 +24,7 @@ export default class App extends Component {
 
   render() { 
     return ( 
-      <React.Fragment>  
+      <React.Fragment> 
         <div className="myDiamonds mycontainer">
           <Diamonds
             outerMostColor={this.state.diamonds.outerMostColor}
@@ -55,7 +53,6 @@ export default class App extends Component {
             <Bubble 
             title="Programmer" 
             myID="bubble1"
-            myStyle="red"
           /></a>
           <a href="#Designer">
             <Bubble 
@@ -68,11 +65,27 @@ export default class App extends Component {
             myID="bubble3"
           /></a>
         </div>
+
         <div className="experience mycontainer">
-          <BiggerBubble
+          <ProgrammerEx
             myID="Programmer"
             myClass="experience"
+            myLittleBubbleID="ProgrammerBubble"
+            begSkillsTitle="Learning"
+            begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, Java, Swift, Xcode, Android Studio,"
+            medSkillsTitle="Intermediate"
+            medSkills="HTML, CSS, React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, C++, "
             />
+          <BiggerBubble
+            myID="Designer"
+            myClass="experience"
+            myLittleBubbleID="DesignerBubble"
+            />
+          <BiggerBubble
+            myID="Crafter"
+            myClass="experience"
+            myLittleBubbleID="CrafterBubble"
+          />
         </div>
       </React.Fragment>
     );
