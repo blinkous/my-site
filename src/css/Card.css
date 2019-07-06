@@ -2,17 +2,14 @@ div.myCard{
   /* border: 1px solid rgb(216, 216, 216); */
   border: 1px solid rgb(241, 241, 241);
   border-radius: 10px;
+  /* margin: 5px 1%; */
   padding: 20px;
-  /* padding-top: 0; */
-  /* width: 50%; */
+  /* width: 42%; */
+  /* width: 95%; */
   /* background-color: pink; */
   display: inline-block;
   position: relative;
-  margin: 5px 0;
-}
-div.myCard:hover{
-  /* background-color: rgb(241, 241, 241); */
-  /* border: 1px solid rgb(241, 241, 241); */
+  /* float: left; */
 }
 div.titleBar{
   position: relative;
@@ -36,14 +33,17 @@ div.titleBar{
 }
 p.date{
   position: absolute;
-  top: 0;
-  right: 20px;
+  top: -8px;
+  right: 10px;
   color: grey;
   font-weight: bold;
   text-transform: uppercase;
 }
-.myCard img{
+.myCard div.cardLeft img, img.coverImg{
   border-radius: 5px;
+  width: 100%;
+}
+.myCard .demoVideo{
   width: 100%;
 }
 div.cardLeft{
@@ -60,10 +60,14 @@ p.proj-desc, ul.stackList{
   color: rgb(80, 80, 80);
   margin-top: 0;
 }
+ul.stackList li:hover{
+  color: #8587ff;
+}
 img.github_logo{
   width: 25px;
   border-radius: 100%;
-  
+  position: relative;
+  top: 5px;
 }
 img.github_logo:hover{
   background-color: #8587ff;
@@ -72,4 +76,14 @@ h5.stackTitle{
   color: rgb(80, 80, 80);
   font-size: 100%;
   margin-bottom: 5px;
+}
+.myCard .displayNone, .myCard .displayNone video, .myCard .displayNone img{
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  div.myCard{
+    width: 95%;
+    margin: 5px auto;
+  }
 }

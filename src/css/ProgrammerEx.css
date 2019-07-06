@@ -1,0 +1,22 @@
+.leftProjs, .rightProjs{
+  width: 48%;
+  padding: 0 1%;
+  float: left;
+}
+
+.leftProjs .myCard, .rightProjs .myCard{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cardContainer{
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .leftProjs, .rightProjs{
+    display: none;
+  }
+  .cardContainer{
+    display: block;
+  }
+}
