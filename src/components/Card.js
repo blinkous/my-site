@@ -13,8 +13,8 @@ export default class Card extends Component {
         <div className="titleBar">
           <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
             <img src={GitHub_Logo_Black} alt="Github Project Link" title={`${this.props.projTitle} on GitHub`} className="github_logo"/>
-          </a>
           <h4 className="project-title">{this.props.projTitle}</h4>
+          </a>
           <p className="date">{this.props.date}</p>
         </div>
 

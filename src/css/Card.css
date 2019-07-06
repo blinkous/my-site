@@ -31,6 +31,9 @@ div.titleBar{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
+a{
+  text-decoration: none;
+}
 p.date{
   position: absolute;
   top: -8px;
