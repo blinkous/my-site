@@ -40,7 +40,11 @@
   /* right: 0; */
   width: 70%;
 }
-.topPortion{
-  /* background: pink; */
-  /* position: relative; */
+
+@media (max-width: 1024px) {
+  .skillsHolder{
+    float: none;
+    margin-left: 20px;
+    width: inherit;
+  }
 }
