@@ -23,8 +23,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0;
-  margin-top: 5px;
+  margin: 5px 0 0 20px;
 }
 .bigger-bubble p.medSkills, .bigger-bubble p.begSkills{
 }
