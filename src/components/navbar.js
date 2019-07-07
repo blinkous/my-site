@@ -7,7 +7,7 @@ export default class NavBar extends Component {
   render() { 
     return (
       <div className="navbar">
-        <img src={favicon} alt="Logo" />
+        <img src={favicon} alt="Logo" id="myLogo" />
         <ul>
           <a href="#diamonds-svg"><li>Home</li></a>
           <a href="#Programmer"><li>Programmer</li></a>

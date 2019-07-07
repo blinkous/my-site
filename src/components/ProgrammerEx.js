@@ -13,9 +13,9 @@ export default class ProgrammerEx extends Component {
           myClass="experience"
           myLittleBubbleID="ProgrammerBubble"
           begSkillsTitle="Learning"
-          begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, Java, Swift, Xcode, Android Studio,"
+          begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, Java, Swift, Xcode, Android Studio"
           medSkillsTitle="Intermediate"
-          medSkills="HTML, CSS, React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, C++, "
+          medSkills="HTML, CSS, C++"
         >
           <div className="leftProjs">
             <Card 

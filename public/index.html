@@ -22,8 +22,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <title>Sara Dhani | Programmer, Designer, Crafter</title>
-
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -43,10 +43,28 @@
       https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling
        http://jsfiddle.net/dylanholmes222/LaL3v/1/ -->
     <script>
+      let showNav = () => {
+        // If the screen width is small enough that the nav doesn't  display on 1 line, make it so that clicking on the logo will toggle nav
+        if($(window).width() < 768){
+          $('.navbar ul').hide();
+          $('.navbar img').css('cursor', 'pointer').on("click").click(function(){
+            $('.navbar ul').toggle();
+          });
+          $('.navbar li').on("click").click(function(){
+            $('.navbar ul').toggle();
+          });
+        }
+        else{
+          $('.navbar img').css('cursor', 'default').off("click");
+          $('.navbar li').off("click");
+          $('.navbar ul').show();
+        }
+      };
+
       $(document).ready(function(){       
-        var scroll_start = 0;
-        var startchange = $('#startchange');
-        var offset = startchange.offset();
+        let scroll_start = 0;
+        let startchange = $('#startchange');
+        let offset = startchange.offset();
         $(document).scroll(function() { 
           scroll_start = $(this).scrollTop();
           // Only change the color if the screen is bigger than 768 meaning that the navbar is still displayed on 1 line
@@ -56,10 +74,9 @@
             $('.navbar').css('background-color', 'transparent');
           }
         });
-        if($(window).width() <= 768){
-          $('.navbar img:hover').css('pointer', 'cursor');
-        }
+        showNav();
       });
+      window.addEventListener('resize', showNav);
    </script>
   </body>
 </html>
