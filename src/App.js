@@ -6,6 +6,7 @@ import MyName from './components/MyName';
 import Bubble from './components/Bubble';
 import BiggerBubble from './components/BiggerBubble';
 import ProgrammerEx from './components/ProgrammerEx';
+import NavBar from './components/navbar';
 
 export default class App extends Component {
   // centralizing color control for name and diamond elements
@@ -25,6 +26,7 @@ export default class App extends Component {
   render() { 
     return ( 
       <React.Fragment> 
+        <NavBar />
         <div className="myDiamonds mycontainer">
           <Diamonds
             outerMostColor={this.state.diamonds.outerMostColor}
