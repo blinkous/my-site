@@ -36,3 +36,14 @@ div.navbar{
   top: 3px;
   left: 20px;
 }
+
+@media (max-width: 768px) {
+  .navbar ul{
+    /* display: none; */
+  }
+  .navbar li{
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}

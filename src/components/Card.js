@@ -10,13 +10,13 @@ export default class Card extends Component {
     return ( 
       <div className={`myCard ${ this.props.projType }`} id={this.props.myID}>
         
-        <div className="titleBar">
-          <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
-            <img src={GitHub_Logo_Black} alt="Github Project Link" title={`${this.props.projTitle} on GitHub`} className="github_logo"/>
-          <h4 className="project-title">{this.props.projTitle}</h4>
-          </a>
-          <p className="date">{this.props.date}</p>
-        </div>
+        <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer" title={`${ this.props.projTitle} GitHub Repository`}>
+          <div className="titleBar">
+              <img src={GitHub_Logo_Black} alt="Github Project Link" title={`${this.props.projTitle} on GitHub`} className="github_logo"/>
+              <h4 className="project-title">{this.props.projTitle}</h4>
+            <p className="date">{this.props.date}</p>
+          </div>
+        </a>
 
         <div className="cardLeft">
           <a href={this.props.githubLink} target="_blank" rel="noopener noreferrer" className={this.props.imageDisplay}>

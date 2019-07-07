@@ -23,6 +23,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Sara Dhani | Programmer, Designer, Crafter</title>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -37,5 +38,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- To change the navbar color on scroll from:
+      https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling
+       http://jsfiddle.net/dylanholmes222/LaL3v/1/ -->
+    <script>
+      $(document).ready(function(){       
+        var scroll_start = 0;
+        var startchange = $('#startchange');
+        var offset = startchange.offset();
+        $(document).scroll(function() { 
+          scroll_start = $(this).scrollTop();
+          // Only change the color if the screen is bigger than 768 meaning that the navbar is still displayed on 1 line
+          if(scroll_start > offset.top && $(window).width() > 768) {
+            $('.navbar').css('background-color', 'rgba(255, 255, 255, 0.9)');
+          } else {
+            $('.navbar').css('background-color', 'transparent');
+          }
+        });
+        if($(window).width() <= 768){
+          $('.navbar img:hover').css('pointer', 'cursor');
+        }
+      });
+   </script>
   </body>
 </html>

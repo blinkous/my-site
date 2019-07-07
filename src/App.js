@@ -40,7 +40,7 @@ export default class App extends Component {
           <Confetti/>
         </div>
 
-        <div className="myName mycontainer">
+        <div className="myName mycontainer" id="startchange">
           <MyName 
             startColor={this.state.name.startColor}
             stopColor={this.state.name.stopColor}
