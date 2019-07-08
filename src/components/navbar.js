@@ -10,9 +10,9 @@ export default class NavBar extends Component {
         <img src={favicon} alt="Logo" id="myLogo" />
         <ul>
           <a href="#diamonds-svg"><li>Home</li></a>
-          <a href="#Programmer"><li>Programmer</li></a>
-          <a href="#Designer"><li>Designer</li></a>
-          <a href="#Crafter"><li>Crafter</li></a>
+          <a href="#ProgrammerAnchor"><li>Programmer</li></a>
+          <a href="#DesignerAnchor"><li>Designer</li></a>
+          <a href="#CrafterAnchor"><li>Crafter</li></a>
         </ul>
       </div>
     );

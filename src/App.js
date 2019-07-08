@@ -69,20 +69,23 @@ export default class App extends Component {
         </div>
 
         <div className="experience mycontainer">
+          <div className="myAnchor" id="ProgrammerAnchor"></div>
           <ProgrammerEx
-            myID="Programmer"
+            myID="ProgrammerE"
             myClass="experience"
             myLittleBubbleID="ProgrammerBubble"
             begSkillsTitle="Learning"
-            begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, Java, Swift, Xcode, Android Studio"
+            begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, Java, Swift, Xcode, Android Studio,"
             medSkillsTitle="Intermediate"
             medSkills="HTML, CSS, C++"
             />
+          <div className="myAnchor" id="DesignerAnchor"></div>
           <BiggerBubble
             myID="Designer"
             myClass="experience"
             myLittleBubbleID="DesignerBubble"
             />
+          <div className="myAnchor" id="CrafterAnchor"></div>
           <BiggerBubble
             myID="Crafter"
             myClass="experience"
