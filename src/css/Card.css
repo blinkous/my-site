@@ -54,6 +54,7 @@ p.date{
 }
 .myCard .demoVideo{
   width: 100%;
+  border-radius: 5px;
 }
 div.cardLeft{
   width: 30%;

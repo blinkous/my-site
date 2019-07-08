@@ -138,7 +138,7 @@ export default class ProgrammerEx extends Component {
               githubLink="https://github.com/cassiopeia0329/Cassiopeia"
               videoDisplay="displayNone"
             >
-              <p className="proj-desc">Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. This was the final project for the CodePath iOS Bootcamp</p>
+              <p className="proj-desc">Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. This was the final project for the CodePath iOS Bootcamp.</p>
               <ul className="stackList">
                 <li key="1">Swift</li>
                 <li key="2">Xcode</li>
