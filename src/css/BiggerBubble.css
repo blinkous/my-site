@@ -9,7 +9,6 @@
   overflow: hidden; 
 }
 .bigger-bubble .titleHolder{
-  /* background-color: rgb(255, 192, 203); */
   display: inline-block;
   width: 25%;
   min-width: 200px;
@@ -25,19 +24,9 @@
   -webkit-text-fill-color: transparent;
   margin: 5px 0 0 20px;
 }
-.bigger-bubble p.medSkills, .bigger-bubble p.begSkills, .bigger-bubble p.Concepts{
-}
-.begSkills span, .medSkills span, .concepts span{
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-right: 10px;
-}
 .skillsHolder{
   color: grey;
   float: right;
-  /* position: absolute; */
-  /* top: 0; */
-  /* right: 0; */
   width: 70%;
 }
 

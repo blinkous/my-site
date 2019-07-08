@@ -1,24 +1,17 @@
-div.myCard{
-  /* border: 1px solid rgb(216, 216, 216); */
+div.myProjectCard{
   border: 1px solid rgb(241, 241, 241);
   border-radius: 10px;
-  /* margin: 5px 1%; */
   padding: 20px;
-  /* width: 42%; */
-  /* width: 95%; */
-  /* background-color: pink; */
   display: inline-block;
   position: relative;
-  /* float: left; */
 }
 div.titleBar{
   position: relative;
   margin-bottom: 20px;
 }
-.myCard h4.project-title{
+.myProjectCard h4.project-title{
   text-transform: uppercase;
   color: white;
-  /* text-align: center; */
   font-size: 120%;
   margin: 0 0px 20px 0px;
   padding: 10px;
@@ -26,10 +19,6 @@ div.titleBar{
   border-top-right-radius: 10px;
   color: #3e3e83;
   display: inline;
-  /* background: linear-gradient(to bottom, #a5b4f3 0%, #d5c4ec 100%); */
-  /* background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 div.titleBar:hover img.github_logo{
   background-color: #8587ff;
@@ -48,11 +37,11 @@ p.date{
   font-weight: bold;
   text-transform: uppercase;
 }
-.myCard div.cardLeft img, img.coverImg{
+.myProjectCard div.cardLeft img, img.coverImg{
   border-radius: 5px;
   width: 100%;
 }
-.myCard .demoVideo{
+.myProjectCard .demoVideo{
   width: 100%;
   border-radius: 5px;
 }
@@ -84,13 +73,17 @@ h5.stackTitle{
   font-size: 100%;
   margin-bottom: 5px;
 }
-.myCard .displayNone, .myCard .displayNone video, .myCard .displayNone img{
-  display: none;
-}
-
 @media (max-width: 1024px) {
-  div.myCard{
+  div.myProjectCard{
     width: inherit;
     margin: 5px auto;
+  }
+}
+@media (max-width: 440px) {
+  p.date{
+    position: relative;
+    top: 2px;
+    left: 0;
+    margin: 0;
   }
 }

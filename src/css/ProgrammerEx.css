@@ -10,6 +10,16 @@
 }
 .cardContainer{
   display: none;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; */
+}
+.ProgrammerEx .myProjectCard{
+  /* width: 42%;
+  margin: 1%; */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {

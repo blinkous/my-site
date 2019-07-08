@@ -1,0 +1,5 @@
+p.skillDesc span{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+}
