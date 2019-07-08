@@ -7,6 +7,7 @@ import Bubble from './components/Bubble';
 import BiggerBubble from './components/BiggerBubble';
 import ProgrammerEx from './components/ProgrammerEx';
 import NavBar from './components/navbar';
+import MyFooter from './components/footer';
 
 export default class App extends Component {
   // centralizing color control for name and diamond elements
@@ -92,6 +93,8 @@ export default class App extends Component {
             myLittleBubbleID="CrafterBubble"
           />
         </div>
+
+        <MyFooter />
       </React.Fragment>
     );
   }

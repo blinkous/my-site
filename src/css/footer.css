@@ -1,0 +1,19 @@
+.myFooter{
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-top: 2px solid #e0e0e0;
+}
+.myFooter img{
+  width: 30px;
+  margin: 0 10px;
+}
+.myFooter img.linkedin{
+  border-radius: 3px;
+}
+.myFooter .gitHub{
+  border-radius: 100%;
+}
+.myFooter .gitHub:hover, .myFooter .linkedin:hover{
+  background-color: #8587ff;
+}
