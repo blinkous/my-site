@@ -8,6 +8,8 @@ import BiggerBubble from './components/BiggerBubble';
 import ProgrammerEx from './components/ProgrammerEx';
 import NavBar from './components/navbar';
 import MyFooter from './components/footer';
+import Card from './components/Card';
+import SkillsDesc from './components/SkillsDesc';
 
 export default class App extends Component {
   // centralizing color control for name and diamond elements
@@ -80,12 +82,20 @@ export default class App extends Component {
             medSkillsTitle="Intermediate"
             medSkills="HTML, CSS, C++"
             />
+
           <div className="myAnchor" id="DesignerAnchor"></div>
           <BiggerBubble
             myID="Designer"
             myClass="experience"
             myLittleBubbleID="DesignerBubble"
+            >
+            <SkillsDesc 
+              descTitle="Skills"
+              desc="Graphic Design, Fashion Illustration, Fashion Design, Pattern Making, Draping"
             />
+              <Card myClass="designer">HELLOO</Card>
+          </BiggerBubble>
+
           <div className="myAnchor" id="CrafterAnchor"></div>
           <BiggerBubble
             myID="Crafter"
