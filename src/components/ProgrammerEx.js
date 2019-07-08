@@ -62,7 +62,8 @@ export default class ProgrammerEx extends Component {
             projTitle="Pinterest"
             coverImage="https://camo.githubusercontent.com/93a1f36be39ef3602eeb70dccf49c6d18bfdea6b/68747470733a2f2f692e696d6775722e636f6d2f7933526336434b2e676966"
             imgAlt="Pinterest"
-            date="May 2019"
+            // date="&#10084; May 2019"
+            date="&#9733; May 2019"
             githubLink="https://github.com/pinterest-duo/Pinterest"
             videoDisplay="displayNone"
           >
@@ -291,7 +292,7 @@ export default class ProgrammerEx extends Component {
               projTitle="Pinterest"
               coverImage="https://camo.githubusercontent.com/93a1f36be39ef3602eeb70dccf49c6d18bfdea6b/68747470733a2f2f692e696d6775722e636f6d2f7933526336434b2e676966"
               imgAlt="Pinterest"
-              date="May 2019"
+              date="&#10084; May 2019"
               githubLink="https://github.com/pinterest-duo/Pinterest"
               videoDisplay="displayNone"
             >
