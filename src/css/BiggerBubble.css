@@ -27,7 +27,7 @@
 }
 .bigger-bubble p.medSkills, .bigger-bubble p.begSkills, .bigger-bubble p.Concepts{
 }
-.Learning, .Intermediate, .Concepts{
+.begSkills span, .medSkills span, .concepts span{
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 10px;

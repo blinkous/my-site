@@ -207,7 +207,7 @@ export default class ProgrammerEx extends Component {
             githubLink="https://github.com/blinkous/idunno"
             videoDisplay="displayNone"
           >
-            <p className="proj-desc">Creating an Android App using Android Studio, Android XML, and Java that tests various features of Android as I learned them while also featuring a paint activity.</p>
+            <p className="proj-desc">Created an Android App using Android Studio, Android XML, and Java that tests various features of Android as I learned them while also featuring a paint activity.</p>
             <ul className="stackList">
               <li key="1">Android Studio</li>
               <li key="2">Java</li>
@@ -215,7 +215,6 @@ export default class ProgrammerEx extends Component {
               <li key="4">Android SDK</li>
             </ul>
           </Card> 
-
           </div>
 
           <div className="cardContainer">
@@ -228,7 +227,7 @@ export default class ProgrammerEx extends Component {
             githubLink="https://github.com/blinkous/my-site"
             videoDisplay="displayNone"
           >
-            <p className="proj-desc">Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations.</p>
+            <p className="proj-desc">Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations. This React app is currently deployed using GitHub Pages.</p>
             <ul className="stackList">
               <li key="5">React.js</li>
               <li key="1">HTML</li>
@@ -392,7 +391,6 @@ export default class ProgrammerEx extends Component {
               <li key="4">JavaScript</li>
             </ul>
           </Card>
-
           <Card 
             projType="mobile"
             projTitle="IDUNNO"
@@ -402,7 +400,7 @@ export default class ProgrammerEx extends Component {
             githubLink="https://github.com/blinkous/idunno"
             videoDisplay="displayNone"
           >
-            <p className="proj-desc">Creating an Android App using Android Studio, Android XML, and Java that tests various features of Android as I learned them while also featuring a paint activity.</p>
+            <p className="proj-desc">Created an Android App using Android Studio, Android XML, and Java that tests various features of Android as I learned them while also featuring a paint activity.</p>
             <ul className="stackList">
               <li key="1">Android Studio</li>
               <li key="2">Java</li>
