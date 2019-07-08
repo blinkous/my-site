@@ -31,6 +31,12 @@ div.titleBar{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
+div.titleBar:hover img.github_logo{
+  background-color: #8587ff;
+}
+div.titleBar:hover h4.project-title, div.titleBar:hover p.date{
+  color: #8587ff;
+}
 a{
   text-decoration: none;
 }
@@ -71,9 +77,6 @@ img.github_logo{
   border-radius: 100%;
   position: relative;
   top: 5px;
-}
-img.github_logo:hover{
-  background-color: #8587ff;
 }
 h5.stackTitle{
   color: rgb(80, 80, 80);

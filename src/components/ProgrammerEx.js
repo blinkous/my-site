@@ -13,11 +13,29 @@ export default class ProgrammerEx extends Component {
           myClass="experience"
           myLittleBubbleID="ProgrammerBubble"
           begSkillsTitle="Learning"
-          begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, Java, Swift, Xcode, Android Studio"
+          begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, GitHub, Java, Swift, Xcode, Android Studio"
           medSkillsTitle="Intermediate"
           medSkills="HTML, CSS, C++"
         >
           <div className="leftProjs">
+            <Card 
+              projType="web"
+              projTitle="Personal Website"
+              coverImage="https://i.imgur.com/zimYuWS.gif"
+              imgAlt="My Website"
+              date="Jun. 2019 - Present"
+              githubLink="https://github.com/blinkous/my-site"
+              videoDisplay="displayNone"
+            >
+              <p className="proj-desc">Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations.</p>
+              <ul className="stackList">
+                <li key="5">React.js</li>
+                <li key="1">HTML</li>
+                <li key="2">CSS</li>
+                <li key="3">JavaScript</li>
+                <li key="4">jQuery</li>
+              </ul>
+            </Card>
             <Card 
               projType="web"
               projTitle="Pixel Coloring"
@@ -198,6 +216,24 @@ export default class ProgrammerEx extends Component {
           </div>
 
           <div className="cardContainer">
+          <Card 
+            projType="web"
+            projTitle="Personal Website"
+            coverImage="https://i.imgur.com/zimYuWS.gif"
+            imgAlt="My Website"
+            date="Jun. 2019 - Present"
+            githubLink="https://github.com/blinkous/my-site"
+            videoDisplay="displayNone"
+          >
+            <p className="proj-desc">Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations.</p>
+            <ul className="stackList">
+              <li key="5">React.js</li>
+              <li key="1">HTML</li>
+              <li key="2">CSS</li>
+              <li key="3">JavaScript</li>
+              <li key="4">jQuery</li>
+            </ul>
+          </Card>
           <Card 
             projType="web"
             projTitle="Pixel Coloring"
