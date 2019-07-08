@@ -19,7 +19,14 @@ export default class BiggerBubble extends Component {
               <span className={this.props.medSkillsTitle}>{this.props.medSkillsTitle} </span>
               {this.props.medSkills}
             </p>
-            <p className="skills">{this.props.skills}</p>
+            <p className="concepts">
+              <span className={this.props.skillsTitle}>{this.props.skillsTitle} </span>
+              {this.props.skills}
+            </p>
+            {/* <p className="skills">
+              <span className={this.props.skillsTitle}>{this.props.skillsTitle} </span>
+              {this.props.skills}
+            </p> */}
           </div>
         </div>
 

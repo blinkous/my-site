@@ -16,6 +16,8 @@ export default class ProgrammerEx extends Component {
           begSkills="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, GitHub, Java, Swift, Xcode, Android Studio"
           medSkillsTitle="Intermediate"
           medSkills="HTML, CSS, C++"
+          skillsTitle="Concepts"
+          skills="Relational Databases, Object-Oriented Programming, UI/UX Design, Usability Principles"
         >
           <div className="leftProjs">
             <Card 
@@ -24,16 +26,17 @@ export default class ProgrammerEx extends Component {
               coverImage="https://i.imgur.com/zimYuWS.gif"
               imgAlt="My Website"
               date="Jun. 2019 - Present"
-              githubLink="https://github.com/blinkous/my-site"
+              githubLink="#Home"
               videoDisplay="displayNone"
             >
-              <p className="proj-desc">Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations.</p>
+              <p className="proj-desc">Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations. This React app is currently deployed using GitHub Pages.</p>
               <ul className="stackList">
                 <li key="5">React.js</li>
                 <li key="1">HTML</li>
                 <li key="2">CSS</li>
                 <li key="3">JavaScript</li>
                 <li key="4">jQuery</li>
+                <li key="6">GitHub Pages</li>
               </ul>
             </Card>
             <Card 

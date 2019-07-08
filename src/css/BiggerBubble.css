@@ -25,9 +25,9 @@
   -webkit-text-fill-color: transparent;
   margin: 5px 0 0 20px;
 }
-.bigger-bubble p.medSkills, .bigger-bubble p.begSkills{
+.bigger-bubble p.medSkills, .bigger-bubble p.begSkills, .bigger-bubble p.Concepts{
 }
-.Learning, .Intermediate{
+.Learning, .Intermediate, .Concepts{
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 10px;
