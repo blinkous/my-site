@@ -103,6 +103,7 @@ p.proj-desc, ul.stackList, .expDesc{
   }
 }
 @media (max-width: 768px) {
+  /* experience card w carousel */
   .experienceCardwCarousel .rightSide{
     float: none;
   }
@@ -123,5 +124,13 @@ p.proj-desc, ul.stackList, .expDesc{
   p.date{
     float: none;
     clear: both;
+  }
+  .myProjectCard div.cardLeft{
+    margin-bottom: 10px;
+  }
+  .myProjectCard div.cardLeft, .myProjectCard div.cardRight{
+    float: none;
+    display: block;
+    width: 100%;
   }
 }

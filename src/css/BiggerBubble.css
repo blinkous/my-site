@@ -37,3 +37,9 @@
     width: inherit;
   }
 }
+
+@media (max-width: 768px) {
+  .bigger-bubble{
+    width: 95%;
+  }
+}
