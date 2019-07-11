@@ -1,4 +1,13 @@
-div.myNavbar{
+.myNavbar{
+  height: 45px;
+}
+nav.navbar #navbarNav .navbar-nav{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* div.myNavbar, */
+nav.navbar{
   /* background-color: rgba(255, 255, 255, 0.9); */
   position: fixed;
   top: 0;
@@ -12,19 +21,20 @@ div.myNavbar{
   padding: 0;
 }
 .myNavbar li{
-  list-style: none;
-  display: inline-block;
+  border-radius: 5px;
+  /* list-style: none; */
+  /* margin: 1px; */
+}
+nav.navbar .navbar-nav .nav-link{
+  /* display: inline-block; */
   padding: 10px;
-  margin: 1px;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 5px;
-  /* background-color: pink; */
 }
-.myNavbar li:hover{
-  /* background-color: #fff; */
-  background-color: #000;
-  color: #8587ff;
+.myNavbar li:hover, nav.navbar .navbar-nav .nav-link:hover{
+  background-color: rgb(0, 0, 0);
+  color: #8587ff;  
 }
 .myNavbar a, .myNavbar a:visited{
   text-decoration: none;
@@ -38,7 +48,7 @@ div.myNavbar{
   z-index: 6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .myNavbar ul{
     /* display: none; */
   }
@@ -46,5 +56,33 @@ div.myNavbar{
     text-align: center;
     display: block;
     background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0;
+  }
+  nav.navbar #navbarNav .navbar-nav{
+    width: 100%;
+    position: absolute;
+    top: 45px;
+  }
+  .navbar-light .navbar-toggler-icon{
+    /* background: red; */
+    background-image: url("../images/favicon.png");
+    width: 45px;
+    height: 45px;
+    z-index: 6;
+    position: relative;
+    border-radius: 100%;
+  }
+  .navbar-light .navbar-toggler-icon:hover{
+    border: 3px solid #8587ffa1;
+  }
+  .navbar-light .navbar-toggler{
+    border: none;
+    /* width: 45px; */
+  }
+  .navbar-light .navbar-toggler:focus{
+    outline: none;
+  }
+  #myLogo{
+    display: none;
   }
 }
