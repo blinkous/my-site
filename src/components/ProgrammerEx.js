@@ -38,7 +38,7 @@ export default class ProgrammerEx extends Component {
               coverImage="https://i.imgur.com/zimYuWS.gif"
               imgAlt="My Website"
               date="Jun. 2019 - Present"
-              githubLink="#Home"
+              githubLink="#diamonds-svg"
               projDesc="Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations. This React app is currently deployed using GitHub Pages."
             >
               <ul className="stackList">
@@ -240,7 +240,7 @@ export default class ProgrammerEx extends Component {
               coverImage="https://i.imgur.com/zimYuWS.gif"
               imgAlt="My Website"
               date="Jun. 2019 - Present"
-              githubLink="https://github.com/blinkous/my-site"
+              githubLink="#diamonds-svg"
               projDesc="Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations. This React app is currently deployed using GitHub Pages."
             >
               <ul className="stackList">
