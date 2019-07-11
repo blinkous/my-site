@@ -7,11 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #fdf7ff; */
   background-color: #faf8ff;
+  /* overflow: hidden; */
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+div#root{
+  overflow: hidden;
 }
 
 /* @keyframes navbar-fade{
