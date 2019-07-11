@@ -91,8 +91,13 @@ div.titleBubbles{
 .card.designer{
   display: block;
 }
-
-
+img.webimg{
+  width: 50px;
+  border-radius: 100%;
+}
+img.webimg:hover{
+  background-color: #8587ff;
+}
 
 /* The confetti keeps moving down as the window gets smaller, so this is my bootleg way of ensuring that it remains above the start of the window so that the user doesn't see them originating from the middle of the screen */
 @media (max-width: 1024px) {

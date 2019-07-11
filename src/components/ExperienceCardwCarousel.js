@@ -21,7 +21,7 @@ export default class ExperienceCardwCarousel extends Component {
               <li data-target={`#${this.props.myID}Carousel`} data-slide-to="0" className="active"></li>
               <li data-target={`#${this.props.myID}Carousel`} data-slide-to="1"></li>
               <li data-target={`#${this.props.myID}Carousel`} data-slide-to="2"></li>
-              <li data-target={`#${this.props.myID}Carousel`} data-slide-to="3" className="active"></li>
+              <li data-target={`#${this.props.myID}Carousel`} data-slide-to="3"></li>
               <li data-target={`#${this.props.myID}Carousel`} data-slide-to="4"></li>
             </ol>
             <div className="carousel-inner">
@@ -54,9 +54,8 @@ export default class ExperienceCardwCarousel extends Component {
 
         <div className="rightSide">
           <p className="expDesc">{this.props.desc}</p>
+          {this.props.children}
         </div>
-
-        {this.props.children}
       </Card>
     );
   }
