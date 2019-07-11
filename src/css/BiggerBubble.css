@@ -40,6 +40,9 @@
 
 @media (max-width: 768px) {
   .bigger-bubble{
-    width: 95%;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    margin: auto;
+    width: 90%;
   }
 }

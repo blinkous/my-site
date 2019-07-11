@@ -47,8 +47,9 @@ nav.navbar .navbar-nav .nav-link{
   left: 20px;
   z-index: 6;
 }
-
-@media (max-width: 1024px) {
+/* Was at 1024, but the navbar was doing some weird stuff, so i changed it to this */
+/* @media (max-width: 1024px) { */
+@media (max-width: 991px) {
   .myNavbar ul{
     /* display: none; */
   }
