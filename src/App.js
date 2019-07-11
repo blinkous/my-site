@@ -77,17 +77,17 @@ export default class App extends Component {
         </div>
         
         <div className="titleBubbles mycontainer">
-          <a href="#Programmer">
+          <a href="#ProgrammerAnchor">
             <Bubble 
             title="Programmer" 
             myID="bubble1"
           /></a>
-          <a href="#Designer">
+          <a href="#DesignerAnchor">
             <Bubble 
             title="Designer" 
             myID="bubble2"
           /></a>
-          <a href="#Crafter">
+          <a href="#CrafterAnchor">
             <Bubble 
             title="Crafter" 
             myID="bubble3"
