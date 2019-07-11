@@ -134,8 +134,13 @@ export default class App extends Component {
               img5={machine_learning_flyer}
               img5Alt="Machine Learning Flyer"
             >
-              <a href="https://baruchais.wixsite.com/baruchais" target="_blank" rel="noopener noreferrer">
-                <img src={WebImg} alt="AIS Website" className="webimg"/></a>
+              <a href="https://baruchais.wixsite.com/baruchais" target="_blank" rel="noopener noreferrer" title="Former AIS Website">
+                <img src={WebImg} alt="AIS Website" className="webimg"/>
+                <video autoPlay muted loop id="aisVid" alt="AIS Website Demo">
+                  <source src="https://i.imgur.com/BscgC6u.mp4" type="video/mp4"/>
+                </video>
+              </a>
+
             </ExperienceCardwCarousel>
 
             <ExperienceCardwCarousel

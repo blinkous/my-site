@@ -102,6 +102,22 @@ p.proj-desc, ul.stackList, .expDesc{
     margin: 5px auto;
   }
 }
+@media (max-width: 768px) {
+  .experienceCardwCarousel .rightSide{
+    float: none;
+  }
+  .experienceCardwCarousel .leftSide{
+    margin-bottom: 20px;
+  }
+  .experienceCardwCarousel .rightSide{
+    margin: 0;
+    text-align: center;
+  }
+  .experienceCardwCarousel .rightSide, .experienceCardwCarousel .leftSide{
+    display: block;
+    width: 100%;
+  }
+}
 @media (max-width: 440px) {
   /* PROJECT CARD */
   p.date{
