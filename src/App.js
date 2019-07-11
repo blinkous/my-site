@@ -8,8 +8,17 @@ import BiggerBubble from './components/BiggerBubble';
 import ProgrammerEx from './components/ProgrammerEx';
 import NavBar from './components/navbar';
 import MyFooter from './components/footer';
-import Card from './components/Card';
+// import Card from './components/Card';
+// import ExperienceCard from './components/ExperienceCard';
 import SkillsDesc from './components/SkillsDesc';
+import ExperienceCardwCarousel from './components/ExperienceCardwCarousel';
+
+// Carousel Images
+import ExploreEtsy_flyer from './images/ais/ExploreEtsy_flyer.jpg';
+import gim1_19_flyer from './images/ais/gim1_19_flyer.jpg';
+import gim2_flyer from './images/ais/gim2_flyer.png';
+import Etiquette_Workshop_Flyer from './images/ais/Etiquette_Workshop_Flyer.png';
+import machine_learning_flyer from './images/ais/machine_learning_flyer.png';
 
 export default class App extends Component {
   // centralizing color control for name and diamond elements
@@ -91,9 +100,27 @@ export default class App extends Component {
             >
             <SkillsDesc 
               descTitle="Skills"
-              desc="Graphic Design, Fashion Illustration, Fashion Design, Pattern Making, Draping"
+              desc="Graphic Design, Fashion Illustration, Fashion Design, Pattern Making, Draping, Sewing"
             />
-              <Card myClass="designer">HELLOO</Card>
+            <ExperienceCardwCarousel
+              cardCat="designer"
+              myID="ais"
+              myCarouselID="aisCarousel"
+              expTitle="Graphic Designer for AIS"
+              date="Apr. 2018 - May 2019"
+              desc="Designed flyers, newsletters, apparel, logo, and website using Wix, PowerPoint, and Mailchimp, while ensuring a consistent design theme and branding was exhibited across all distributed media."
+              img1={ExploreEtsy_flyer}
+              img1Alt="Etsy Flyer"
+              img2={gim1_19_flyer}
+              img2Alt="GIM Flyer"
+              img3={gim2_flyer}
+              img3Alt="GIM Flyer"
+              img4={Etiquette_Workshop_Flyer}
+              img4Alt="Workship Flyer"
+              img5={machine_learning_flyer}
+              img5Alt="Machine Learning Flyer"
+            >
+            </ExperienceCardwCarousel>
           </BiggerBubble>
 
           <div className="myAnchor" id="CrafterAnchor"></div>

@@ -1,4 +1,4 @@
-div.navbar{
+div.myNavbar{
   /* background-color: rgba(255, 255, 255, 0.9); */
   position: fixed;
   top: 0;
@@ -7,11 +7,11 @@ div.navbar{
   text-align: right;
   /* height: 40px; */
 }
-.navbar ul{
+.myNavbar ul{
   margin: 0;
   padding: 0;
 }
-.navbar li{
+.myNavbar li{
   list-style: none;
   display: inline-block;
   padding: 10px;
@@ -21,16 +21,16 @@ div.navbar{
   border-radius: 5px;
   /* background-color: pink; */
 }
-.navbar li:hover{
+.myNavbar li:hover{
   /* background-color: #fff; */
   background-color: #000;
   color: #8587ff;
 }
-.navbar a, .navbar a:visited{
+.myNavbar a, .myNavbar a:visited{
   text-decoration: none;
   color: rgb(80, 80, 80);
 }
-.navbar img{
+.myNavbar img{
   width: 35px;
   position: absolute;
   top: 3px;
@@ -39,10 +39,10 @@ div.navbar{
 }
 
 @media (max-width: 768px) {
-  .navbar ul{
+  .myNavbar ul{
     /* display: none; */
   }
-  .navbar li{
+  .myNavbar li{
     text-align: center;
     display: block;
     background-color: rgba(255, 255, 255, 0.9);

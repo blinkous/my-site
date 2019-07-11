@@ -1,4 +1,4 @@
-div.titleBar{
+/* div.titleBar{
   position: relative;
   margin-bottom: 20px;
 }
@@ -66,6 +66,7 @@ h5.stackTitle{
   font-size: 100%;
   margin-bottom: 5px;
 }
+
 @media (max-width: 1024px) {
   div.myProjectCard{
     width: inherit;
@@ -79,4 +80,4 @@ h5.stackTitle{
     left: 0;
     margin: 0;
   }
-}
+} */

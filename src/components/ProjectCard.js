@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import '../css/ProjectCard.css';
+import '../css/Card.css';
 import GitHub_Logo_Black from '../images/GitHub-logo-black.png';
 import Card from './Card';
 
 export default class ProjectCard extends Component {
   state = {  }
   render() { 
-    // Converting the children to an array to call the different components
-    const children = React.Children.toArray(this.props.children);
-
     return ( 
       <Card
         myClass={`myProjectCard ${ this.props.projType }`} 
@@ -33,9 +30,9 @@ export default class ProjectCard extends Component {
 
         {/* Right side of the project card */}
         <div className="cardRight">
-          {children[0]}
+          <p className="proj-desc">{this.props.projDesc}</p>
           <h5 className="stackTitle">Tech Stack</h5>
-          {children[1]}
+          {this.props.children}
         </div>
       {/* </div> */}
       </Card>
