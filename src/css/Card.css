@@ -74,9 +74,9 @@ p.proj-desc, ul.stackList, .expDesc{
 
 /*========================== EXPERIENCE CARD w CAROUSEL STYLES ==========================*/
 .experienceCardwCarousel{
-  width: 98%;
+  width: 100%;
   display: block;
-  margin: 20px 1%;
+  margin: 20px 0;
 }
 .experienceCardwCarousel .leftSide{
   width: 40%;
