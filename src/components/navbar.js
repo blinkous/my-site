@@ -31,9 +31,9 @@ export default class NavBar extends Component {
             <li className="nav-item">
               <a className="nav-link" href="#DesignerAnchor">Designer</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#CrafterAnchor">Crafter</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
