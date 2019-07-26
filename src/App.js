@@ -87,11 +87,11 @@ export default class App extends Component {
             title="Designer" 
             myID="bubble2"
           /></a>
-          <a href="#CrafterAnchor">
+          {/* <a href="#CrafterAnchor">
             <Bubble 
             title="Crafter" 
             myID="bubble3"
-          /></a>
+          /></a> */}
         </div>
 
         <div className="experience mycontainer">
@@ -182,12 +182,12 @@ export default class App extends Component {
             </div>
           </BiggerBubble>
 
-          <div className="myAnchor" id="CrafterAnchor"></div>
+          {/* <div className="myAnchor" id="CrafterAnchor"></div>
           <BiggerBubble
             myID="Crafter"
             myClass="experience"
             myLittleBubbleID="CrafterBubble"
-          />
+          /> */}
         </div>
 
         <MyFooter />

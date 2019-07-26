@@ -133,6 +133,19 @@ export default class ProgrammerEx extends Component {
                 <li key="4">JavaScript</li>
               </ul>
             </ProjectCard>
+            <ProjectCard 
+              projType="mobile"
+              projTitle="E-Bakery"
+              coverImage="https://i.imgur.com/rpklEmO.gif"
+              imgAlt="E-Bakery"
+              date="Spring 2017"
+              githubLink="https://sdhani.wixsite.com/e-bakery"
+              projDesc="Designed a prototype website for an online bakery as a part of an e-business course. The original prototype was made in PowerPoint, but I upgraded it to an actual website for fun."
+            >
+              <ul className="stackList">
+                <li key="1">Wix</li>
+              </ul>
+            </ProjectCard>
           </div>
           <div className="rightProjs">
             <ProjectCard 
@@ -412,6 +425,19 @@ export default class ProgrammerEx extends Component {
                 <li key="2">Java</li>
                 <li key="3">Android XML</li>
                 <li key="4">Android SDK</li>
+              </ul>
+            </ProjectCard>
+            <ProjectCard 
+              projType="mobile"
+              projTitle="E-Bakery"
+              coverImage="https://i.imgur.com/rpklEmO.gif"
+              imgAlt="E-Bakery"
+              date="Spring 2017"
+              githubLink="https://sdhani.wixsite.com/e-bakery"
+              projDesc="Designed a prototype website for an online bakery as a part of an e-business course. The original prototype was made in PowerPoint, but I upgraded it to an actual website for fun."
+            >
+              <ul className="stackList">
+                <li key="1">Wix</li>
               </ul>
             </ProjectCard>
             <ProjectCard 
