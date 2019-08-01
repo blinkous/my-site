@@ -17,7 +17,7 @@ export default class ProgrammerEx extends Component {
           <div className="programmerSkills">
             <SkillsDesc 
               descTitle="Learning"
-              desc="React, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, GitHub, Java, Swift, Xcode, Android Studio"
+              desc="React, REST APIs, Java, Android Studio, JavaScript, jQuery, MySQL, SQL, PHP, Bootstrap, Python, Git, GitHub, Swift, Xcode"
             />
             <SkillsDesc 
               descTitle="Intermediate"
@@ -150,6 +150,23 @@ export default class ProgrammerEx extends Component {
           <div className="rightProjs">
             <ProjectCard 
               projType="mobile"
+              projTitle="Forester"
+              coverImage="https://i.imgur.com/P094JHS.gif"
+              imgAlt="Forester"
+              date="July 2019"
+              githubLink="https://github.com/blinkous/forester"
+              projDesc="This app uses the IP Geolocation API to display sunrise and moonrise times for the current day and location. The app also uses custom animated vector graphics to display sun and moon."
+            >
+              <ul className="stackList">
+                <li key="2">Java</li>
+                <li key="1">Android Studio</li>
+                <li key="3">Android XML</li>
+                <li key="4">IP Geolocation API</li>
+                <li key="5">Trefle API</li>
+              </ul>
+            </ProjectCard>
+            <ProjectCard 
+              projType="mobile"
               projTitle="Cassiopeia"
               coverImage="https://camo.githubusercontent.com/6cd0c969f69ad5329729efd750ab72032e3b22cc/68747470733a2f2f692e696d6775722e636f6d2f535435637672552e676966"
               imgAlt="Cassiopeia"
@@ -262,6 +279,23 @@ export default class ProgrammerEx extends Component {
                 <li key="2">CSS</li>
                 <li key="3">JavaScript</li>
                 <li key="4">jQuery</li>
+              </ul>
+            </ProjectCard>
+            <ProjectCard 
+              projType="mobile"
+              projTitle="Forester"
+              coverImage="https://i.imgur.com/P094JHS.gif"
+              imgAlt="Forester"
+              date="July 2019"
+              githubLink="https://github.com/blinkous/forester"
+              projDesc="This app uses the IP Geolocation API to display sunrise and moonrise times for the current day and location. The app also uses custom animated vector graphics to display sun and moon."
+            >
+              <ul className="stackList">
+                <li key="2">Java</li>
+                <li key="1">Android Studio</li>
+                <li key="3">Android XML</li>
+                <li key="4">IP Geolocation API</li>
+                <li key="5">Trefle API</li>
               </ul>
             </ProjectCard>
             <ProjectCard 
