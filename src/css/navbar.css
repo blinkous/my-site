@@ -55,6 +55,7 @@ nav.navbar .navbar-nav .nav-link{
 }
 .myNavbar img.linkedin{
   border-radius: 3px;
+  margin-top: 2px;
 }
 nav.navbar .navbar-nav img.nav-link:hover{
   background-color: #8587ff;
@@ -63,6 +64,9 @@ nav.navbar .navbar-nav img.nav-link:hover{
 .myNavbar img#myLogo:hover{
   /* background-color: #8587ff; */
   border: 3px solid #8587ffa1;
+}
+#navbarNav > ul > li:nth-child(4):hover, #navbarNav > ul > li:nth-child(5):hover{
+  background-color: #8587ff;
 }
 /* Was at 1024, but the navbar was doing some weird stuff, so i changed it to this */
 /* @media (max-width: 1024px) { */
@@ -107,8 +111,5 @@ nav.navbar .navbar-nav img.nav-link:hover{
     position: relative;
     left: 47%;
   }
-  #navbarNav > ul > li:nth-child(4):hover, #navbarNav > ul > li:nth-child(5):hover{
-    background-color: #8587ff;
-    text-align: center;
-  }
+
 }
