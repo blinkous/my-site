@@ -1,8 +1,9 @@
 .myFooter{
   text-align: center;
-  background-color: white;
-  padding: 10px;
-  border-top: 2px solid #e0e0e0;
+  padding: 20px;
+  /* border-top: 2px solid #e0e0e0; */
+  background: linear-gradient(to bottom, #faf8ff 0%, #8e8fd8 100%);
+  /* background-color: white; */
 }
 .myFooter img{
   width: 30px;
@@ -16,4 +17,13 @@
 }
 .myFooter .gitHub:hover, .myFooter .linkedin:hover{
   background-color: #8587ff;
+}
+.myFooter p{
+  font-size: small;
+  color: #ffffff;
+  margin: 0;
+}
+.myFooter img.smiley{
+  width: 20px;
+  margin: 0 5px;
 }

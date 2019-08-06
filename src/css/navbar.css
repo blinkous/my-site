@@ -32,7 +32,7 @@ nav.navbar .navbar-nav .nav-link{
   letter-spacing: 1px;
   border-radius: 5px;
 }
-.myNavbar li:hover, nav.navbar .navbar-nav .nav-link:hover{
+ nav.navbar .navbar-nav .nav-link:hover{
   background-color: rgb(0, 0, 0);
   color: #8587ff;  
 }
@@ -41,11 +41,28 @@ nav.navbar .navbar-nav .nav-link{
   color: rgb(80, 80, 80);
 }
 .myNavbar img{
-  width: 35px;
-  position: absolute;
-  top: 3px;
-  left: 20px;
   z-index: 6;
+}
+.myNavbar img#myLogo{
+  width: 35px;
+  border-radius: 100%;
+}
+.myNavbar img.gitHub, .myNavbar img.linkedin{
+  width: 45px;
+}
+.myNavbar img.gitHub{
+  border-radius: 100%;
+}
+.myNavbar img.linkedin{
+  border-radius: 3px;
+}
+nav.navbar .navbar-nav img.nav-link:hover{
+  background-color: #8587ff;
+}
+/* .myNavbar img#myLogo:hover,.myNavbar .gitHub:hover, .myNavbar .linkedin:hover{ */
+.myNavbar img#myLogo:hover{
+  /* background-color: #8587ff; */
+  border: 3px solid #8587ffa1;
 }
 /* Was at 1024, but the navbar was doing some weird stuff, so i changed it to this */
 /* @media (max-width: 1024px) { */
@@ -85,5 +102,13 @@ nav.navbar .navbar-nav .nav-link{
   }
   #myLogo{
     display: none;
+  }
+  .nav-item img{
+    position: relative;
+    left: 47%;
+  }
+  #navbarNav > ul > li:nth-child(4):hover, #navbarNav > ul > li:nth-child(5):hover{
+    background-color: #8587ff;
+    text-align: center;
   }
 }
