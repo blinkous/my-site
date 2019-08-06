@@ -34,7 +34,7 @@ nav.navbar .navbar-nav .nav-link{
 }
  nav.navbar .navbar-nav .nav-link:hover{
   background-color: rgb(0, 0, 0);
-  color: #8587ff;  
+  color: #8587ff;
 }
 .myNavbar a, .myNavbar a:visited{
   text-decoration: none;
@@ -67,6 +67,9 @@ nav.navbar .navbar-nav img.nav-link:hover{
 }
 #navbarNav > ul > li:nth-child(4):hover, #navbarNav > ul > li:nth-child(5):hover{
   background-color: #8587ff;
+}
+#navbarNav > ul > li:nth-child(4), #navbarNav > ul > li:nth-child(5){
+  border-radius: 5px;
 }
 /* Was at 1024, but the navbar was doing some weird stuff, so i changed it to this */
 /* @media (max-width: 1024px) { */
