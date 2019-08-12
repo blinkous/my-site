@@ -35,7 +35,7 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://i.imgur.com/2qmQoJT.png"
+              coverImage="https://camo.githubusercontent.com/8df92d08de9c088de101160e682e4d64049a4ee5/68747470733a2f2f692e696d6775722e636f6d2f32716d516f4a542e706e67"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
@@ -53,7 +53,7 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Forester"
-              coverImage="https://i.imgur.com/P094JHS.gif"
+              coverImage="https://camo.githubusercontent.com/e74ba36e2646021862df433b60e5e03d7900540f/68747470733a2f2f692e696d6775722e636f6d2f503039344a48532e676966"
               imgAlt="Forester"
               date="July 2019"
               githubLink="https://github.com/blinkous/forester"
@@ -283,10 +283,10 @@ export default class ProgrammerEx extends Component {
 
           {/* One column display for screen sizes smaller than 1024 */}
           <div className="cardContainer">
-          <ProjectCard 
+            <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://i.imgur.com/2qmQoJT.png"
+              coverImage="https://camo.githubusercontent.com/8df92d08de9c088de101160e682e4d64049a4ee5/68747470733a2f2f692e696d6775722e636f6d2f32716d516f4a542e706e67"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
@@ -321,7 +321,7 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Forester"
-              coverImage="https://i.imgur.com/P094JHS.gif"
+              coverImage="https://camo.githubusercontent.com/e74ba36e2646021862df433b60e5e03d7900540f/68747470733a2f2f692e696d6775722e636f6d2f503039344a48532e676966"
               imgAlt="Forester"
               date="July 2019"
               githubLink="https://github.com/blinkous/forester"
