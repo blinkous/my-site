@@ -35,7 +35,7 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://camo.githubusercontent.com/a10f7ef8a580b8b55b3f81cdcabda723312e70ef/68747470733a2f2f692e696d6775722e636f6d2f6c6f5631356f312e706e67"
+              coverImage="https://i.imgur.com/2qmQoJT.png"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
@@ -286,7 +286,7 @@ export default class ProgrammerEx extends Component {
           <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://camo.githubusercontent.com/a10f7ef8a580b8b55b3f81cdcabda723312e70ef/68747470733a2f2f692e696d6775722e636f6d2f6c6f5631356f312e706e67"
+              coverImage="https://i.imgur.com/2qmQoJT.png"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
