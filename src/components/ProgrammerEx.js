@@ -33,21 +33,39 @@ export default class ProgrammerEx extends Component {
           <div className="projContainer">
           <div className="leftProjs">
             <ProjectCard 
-              projType="web"
-              projTitle="My Website"
-              coverImage="https://i.imgur.com/zimYuWS.gif"
-              imgAlt="My Website"
-              date="Jun. 2019 - Present"
-              githubLink="#diamonds-svg"
-              projDesc="Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations. This React app is currently deployed using GitHub Pages."
+              projType="mobile"
+              projTitle="Dark Moon"
+              coverImage="https://camo.githubusercontent.com/a10f7ef8a580b8b55b3f81cdcabda723312e70ef/68747470733a2f2f692e696d6775722e636f6d2f6c6f5631356f312e706e67"
+              imgAlt="Dark Moon"
+              date="Aug. 2019 - Present"
+              githubLink="https://github.com/blinkous/Dark-Moon"
+              projDesc="This is an Android app that explores the use of the NASA API. So far, the app displays the Astronomy Picture of the Day (APOD) on the home screen."
             >
               <ul className="stackList">
-                <li key="5">React.js</li>
-                <li key="1">HTML</li>
-                <li key="2">CSS</li>
-                <li key="3">JavaScript</li>
-                <li key="4">jQuery</li>
-                <li key="6">GitHub Pages</li>
+                <li key="5">Java</li>
+                <li key="1">Android Studio</li>
+                <li key="2">Android XML</li>
+                <li key="3">NASA API</li>
+                <li key="4">Picasso</li>
+                <li key="6">Retrofit</li>
+              </ul>
+            </ProjectCard>
+            <ProjectCard 
+              projType="mobile"
+              projTitle="Forester"
+              coverImage="https://i.imgur.com/P094JHS.gif"
+              imgAlt="Forester"
+              date="July 2019"
+              githubLink="https://github.com/blinkous/forester"
+              projDesc="This app uses the IP Geolocation API to display sunrise and moonrise times for the current day and location. The app also uses custom animated vector graphics to display sun and moon."
+            >
+              <ul className="stackList">
+                <li key="2">Java</li>
+                <li key="1">Android Studio</li>
+                <li key="3">Android XML</li>
+                <li key="4">IP Geolocation API</li>
+                <li key="5">Trefle API</li>
+                <li key="6">Retrofit</li>
               </ul>
             </ProjectCard>
             <ProjectCard 
@@ -148,21 +166,22 @@ export default class ProgrammerEx extends Component {
             </ProjectCard>
           </div>
           <div className="rightProjs">
-            <ProjectCard 
-              projType="mobile"
-              projTitle="Forester"
-              coverImage="https://i.imgur.com/P094JHS.gif"
-              imgAlt="Forester"
-              date="July 2019"
-              githubLink="https://github.com/blinkous/forester"
-              projDesc="This app uses the IP Geolocation API to display sunrise and moonrise times for the current day and location. The app also uses custom animated vector graphics to display sun and moon."
+          <ProjectCard 
+              projType="web"
+              projTitle="My Website"
+              coverImage="https://i.imgur.com/zimYuWS.gif"
+              imgAlt="My Website"
+              date="Jun. 2019 - Present"
+              githubLink="#diamonds-svg"
+              projDesc="Currently designing and developing a responsive personal website that uses custom SVGs and CSS animations. This React app is currently deployed using GitHub Pages."
             >
               <ul className="stackList">
-                <li key="2">Java</li>
-                <li key="1">Android Studio</li>
-                <li key="3">Android XML</li>
-                <li key="4">IP Geolocation API</li>
-                <li key="5">Trefle API</li>
+                <li key="5">React.js</li>
+                <li key="1">HTML</li>
+                <li key="2">CSS</li>
+                <li key="3">JavaScript</li>
+                <li key="4">jQuery</li>
+                <li key="6">GitHub Pages</li>
               </ul>
             </ProjectCard>
             <ProjectCard 
@@ -264,6 +283,24 @@ export default class ProgrammerEx extends Component {
 
           {/* One column display for screen sizes smaller than 1024 */}
           <div className="cardContainer">
+          <ProjectCard 
+              projType="mobile"
+              projTitle="Dark Moon"
+              coverImage="https://camo.githubusercontent.com/a10f7ef8a580b8b55b3f81cdcabda723312e70ef/68747470733a2f2f692e696d6775722e636f6d2f6c6f5631356f312e706e67"
+              imgAlt="Dark Moon"
+              date="Aug. 2019 - Present"
+              githubLink="https://github.com/blinkous/Dark-Moon"
+              projDesc="This is an Android app that explores the use of the NASA API. So far, the app displays the Astronomy Picture of the Day (APOD) on the home screen."
+            >
+              <ul className="stackList">
+                <li key="5">Java</li>
+                <li key="1">Android Studio</li>
+                <li key="2">Android XML</li>
+                <li key="3">NASA API</li>
+                <li key="4">Picasso</li>
+                <li key="6">Retrofit</li>
+              </ul>
+            </ProjectCard>
             <ProjectCard 
               projType="web"
               projTitle="My Website"
