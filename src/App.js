@@ -53,6 +53,8 @@ export default class App extends Component {
     return ( 
       <React.Fragment> 
         <NavBar />
+        <div className="myAnchor" id="Home"></div>
+
         <div className="myDiamonds mycontainer">
           <Diamonds
             outerMostColor={this.state.diamonds.outerMostColor}
@@ -77,12 +79,12 @@ export default class App extends Component {
         </div>
         
         <div className="titleBubbles mycontainer">
-          <a href="#ProgrammerAnchor">
+          <a href="#Programmer">
             <Bubble 
             title="Programmer" 
             myID="bubble1"
           /></a>
-          <a href="#DesignerAnchor">
+          <a href="#Designer">
             <Bubble 
             title="Designer" 
             myID="bubble2"
@@ -95,7 +97,7 @@ export default class App extends Component {
         </div>
 
         <div className="experience mycontainer">
-          <div className="myAnchor" id="ProgrammerAnchor"></div>
+          <div className="myAnchor" id="Programmer"></div>
           <ProgrammerEx
             myID="ProgrammerE"
             myClass="experience"
@@ -106,7 +108,7 @@ export default class App extends Component {
             medSkills="HTML, CSS, C++"
             />
 
-          <div className="myAnchor" id="DesignerAnchor"></div>
+          <div className="myAnchor" id="Designer"></div>
           <BiggerBubble
             myID="Designer"
             myClass="experience"

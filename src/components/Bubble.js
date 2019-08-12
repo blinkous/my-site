@@ -7,6 +7,7 @@ class Bubble extends Component {
     return ( 
       <div className="bubble" id={this.props.myID}>
         <h3>{this.props.title}</h3>
+        {this.props.children}
       </div>
     );
   }
