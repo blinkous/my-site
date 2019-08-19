@@ -37,11 +37,11 @@ export default class NavBar extends Component {
               <a className="nav-link" href="#Designer">Designer</a>
             </li>
             <li className="nav-item img">
-              <a href="https://github.com/blinkous" target="_blank" rel="noopener noreferrer" title="GitHub Link">
+              <a href="https://github.com/blinkous" target="_blank" rel="noopener noreferrer" title="Checkout my GitHub">
                 <img className="gitHub nav-link" src={GitHub_Logo} alt="GitHub"/></a>
             </li>
             <li className="nav-item img">
-              <a href="https://www.linkedin.com/in/sara-dhani/" target="_blank" rel="noopener noreferrer" title="LinkedIn Link">
+              <a href="https://www.linkedin.com/in/sara-dhani/" target="_blank" rel="noopener noreferrer" title="Connect on LinkedIn">
                 <img className="linkedin nav-link" src={LinkedIn} alt="LinkedIn"/></a>
             </li>
             {/* <li className="nav-item">
