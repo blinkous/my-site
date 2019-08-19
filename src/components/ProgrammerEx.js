@@ -21,12 +21,12 @@ export default class ProgrammerEx extends Component {
             />
             <SkillsDesc 
               descTitle="Intermediate"
-              desc="HTML, CSS, C++"
+              desc="HTML, CSS, C++, Relational Databases, Object-Oriented Programming, UI/UX Design, Usability Principles, Linear Data Structures"
             />
-            <SkillsDesc 
+            {/* <SkillsDesc 
               descTitle="Concepts"
-              desc="Relational Databases, Object-Oriented Programming, UI/UX Design, Usability Principles"
-            />
+              desc=""
+            /> */}
           </div>
 
           {/* Creating 2 columns for display when screen size is more than 1024 */}
@@ -35,11 +35,11 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://camo.githubusercontent.com/8df92d08de9c088de101160e682e4d64049a4ee5/68747470733a2f2f692e696d6775722e636f6d2f32716d516f4a542e706e67"
+              coverImage="https://camo.githubusercontent.com/cc4a03791f140191346ef7508fdcfdce1b3aa69e/68747470733a2f2f692e696d6775722e636f6d2f514b744e336b422e706e67"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
-              projDesc="This is an Android app that explores the use of the NASA API. So far, the app displays the Astronomy Picture of the Day (APOD) on the home screen."
+              projDesc="This is an Android app that explores the use of the NASA API. So far, the app displays the Astronomy Picture of the Day (APOD) on the home screen and can search through Nasa's image and video library."
             >
               <ul className="stackList">
                 <li key="5">Java</li>
@@ -286,11 +286,11 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://camo.githubusercontent.com/8df92d08de9c088de101160e682e4d64049a4ee5/68747470733a2f2f692e696d6775722e636f6d2f32716d516f4a542e706e67"
+              coverImage="https://camo.githubusercontent.com/cc4a03791f140191346ef7508fdcfdce1b3aa69e/68747470733a2f2f692e696d6775722e636f6d2f514b744e336b422e706e67"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
-              projDesc="This is an Android app that explores the use of the NASA API. So far, the app displays the Astronomy Picture of the Day (APOD) on the home screen."
+              projDesc="This is an Android app that explores the use of the NASA API. So far, the app displays the Astronomy Picture of the Day (APOD) on the home screen and can search through Nasa's image and video library."
             >
               <ul className="stackList">
                 <li key="5">Java</li>
