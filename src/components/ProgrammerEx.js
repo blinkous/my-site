@@ -191,13 +191,14 @@ export default class ProgrammerEx extends Component {
               imgAlt="Cassiopeia"
               date="May 2019"
               githubLink="https://github.com/cassiopeia0329/Cassiopeia"
-              projDesc="Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. This was the final project for the CodePath iOS Bootcamp."
+              projDesc="Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. Collaborated to gather requirements, create user stories, outline sprints, design wireframes and code the app. Was responsible for designing Figma wireframes, outlining sprints in GitHub and coding the app which utilizes custom tableview cells, tab bar and flow navigation, CocoaPods and a Heroku server."
             >
               <ul className="stackList">
                 <li key="1">Swift</li>
                 <li key="2">Xcode</li>
                 <li key="3">CocoaPods</li>
                 <li key="4">Heroku Parse Server</li>
+                <li key="5">GitHub</li>
               </ul>
             </ProjectCard>
             <ProjectCard 
@@ -358,13 +359,14 @@ export default class ProgrammerEx extends Component {
               imgAlt="Cassiopeia"
               date="May 2019"
               githubLink="https://github.com/cassiopeia0329/Cassiopeia"
-              projDesc="Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. This was the final project for the CodePath iOS Bootcamp."
+              projDesc="Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. Collaborated to gather requirements, create user stories, outline sprints, design wireframes and code the app. Was responsible for designing Figma wireframes, outlining sprints in GitHub and coding the app which utilizes custom tableview cells, tab bar and flow navigation, CocoaPods and a Heroku server."
             >
               <ul className="stackList">
                 <li key="1">Swift</li>
                 <li key="2">Xcode</li>
                 <li key="3">CocoaPods</li>
                 <li key="4">Heroku Parse Server</li>
+                <li key="5">GitHub</li>
               </ul>
             </ProjectCard>
             <ProjectCard 
