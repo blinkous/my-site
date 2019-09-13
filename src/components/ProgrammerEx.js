@@ -35,7 +35,7 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://camo.githubusercontent.com/cc4a03791f140191346ef7508fdcfdce1b3aa69e/68747470733a2f2f692e696d6775722e636f6d2f514b744e336b422e706e67"
+              coverImage="https://camo.githubusercontent.com/626afecc93088ff0b87e84a7ca60b1777058e278/68747470733a2f2f692e696d6775722e636f6d2f574b44517975372e676966"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
@@ -166,7 +166,7 @@ export default class ProgrammerEx extends Component {
             </ProjectCard>
           </div>
           <div className="rightProjs">
-          <ProjectCard 
+            <ProjectCard 
               projType="web"
               projTitle="My Website"
               coverImage="https://i.imgur.com/zimYuWS.gif"
@@ -192,7 +192,7 @@ export default class ProgrammerEx extends Component {
               date="May 2019"
               githubLink="https://github.com/cassiopeia0329/Cassiopeia"
               projDesc="Created an iOS app with a team that allows users to upload artwork and interested buyers to post offers on items. Collaborated to gather requirements, create user stories, outline sprints, design wireframes and code the app. Was responsible for designing Figma wireframes, outlining sprints in GitHub and coding the app which utilizes custom tableview cells, tab bar and flow navigation, CocoaPods and a Heroku server."
-            >
+              >
               <ul className="stackList">
                 <li key="1">Swift</li>
                 <li key="2">Xcode</li>
@@ -287,7 +287,7 @@ export default class ProgrammerEx extends Component {
             <ProjectCard 
               projType="mobile"
               projTitle="Dark Moon"
-              coverImage="https://camo.githubusercontent.com/cc4a03791f140191346ef7508fdcfdce1b3aa69e/68747470733a2f2f692e696d6775722e636f6d2f514b744e336b422e706e67"
+              coverImage="https://camo.githubusercontent.com/626afecc93088ff0b87e84a7ca60b1777058e278/68747470733a2f2f692e696d6775722e636f6d2f574b44517975372e676966"
               imgAlt="Dark Moon"
               date="Aug. 2019 - Present"
               githubLink="https://github.com/blinkous/Dark-Moon"
