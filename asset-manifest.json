@@ -1,34 +1,24 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.5a140bcf.chunk.css",
-    "main.js": "/my-site/static/js/main.7372f5dc.chunk.js",
-    "main.js.map": "/my-site/static/js/main.7372f5dc.chunk.js.map",
+    "main.js": "/my-site/static/js/main.6ff8a8c6.chunk.js",
+    "main.js.map": "/my-site/static/js/main.6ff8a8c6.chunk.js.map",
     "runtime~main.js": "/my-site/static/js/runtime~main.0ae2f0e4.js",
     "runtime~main.js.map": "/my-site/static/js/runtime~main.0ae2f0e4.js.map",
     "static/css/2.247797c6.chunk.css": "/my-site/static/css/2.247797c6.chunk.css",
     "static/js/2.70971248.chunk.js": "/my-site/static/js/2.70971248.chunk.js",
     "static/js/2.70971248.chunk.js.map": "/my-site/static/js/2.70971248.chunk.js.map",
     "index.html": "/my-site/index.html",
-    "precache-manifest.585cc504dbe86302817940507b9fc61a.js": "/my-site/precache-manifest.585cc504dbe86302817940507b9fc61a.js",
+    "precache-manifest.d3e327742c216ab5691906e40eaaaa11.js": "/my-site/precache-manifest.d3e327742c216ab5691906e40eaaaa11.js",
     "service-worker.js": "/my-site/service-worker.js",
     "static/css/2.247797c6.chunk.css.map": "/my-site/static/css/2.247797c6.chunk.css.map",
     "static/css/main.5a140bcf.chunk.css.map": "/my-site/static/css/main.5a140bcf.chunk.css.map",
     "static/media/Etiquette_Workshop_Flyer.png": "/my-site/static/media/Etiquette_Workshop_Flyer.b8753bdb.png",
     "static/media/ExploreEtsy_flyer.jpg": "/my-site/static/media/ExploreEtsy_flyer.0f6a861f.jpg",
-    "static/media/bridal_back.jpg": "/my-site/static/media/bridal_back.0b96f8da.jpg",
-    "static/media/bridal_board.jpeg": "/my-site/static/media/bridal_board.feff413f.jpeg",
-    "static/media/bridal_front.jpg": "/my-site/static/media/bridal_front.8e451c3b.jpg",
-    "static/media/bridal_top_back.jpeg": "/my-site/static/media/bridal_top_back.5d8b3668.jpeg",
-    "static/media/bridal_top_front.jpeg": "/my-site/static/media/bridal_top_front.45e0a712.jpeg",
     "static/media/navbar.css": "/my-site/static/media/favicon.27b22cb8.png",
     "static/media/gim1_19_flyer.jpg": "/my-site/static/media/gim1_19_flyer.97ec7963.jpg",
     "static/media/gim2_flyer.png": "/my-site/static/media/gim2_flyer.49a01a62.png",
     "static/media/machine_learning_flyer.png": "/my-site/static/media/machine_learning_flyer.8a5b078b.png",
-    "static/media/web.png": "/my-site/static/media/web.3e9dca9a.png",
-    "static/media/zipper_back.jpg": "/my-site/static/media/zipper_back.44412cf2.jpg",
-    "static/media/zipper_board.jpeg": "/my-site/static/media/zipper_board.4b323953.jpeg",
-    "static/media/zipper_front.jpg": "/my-site/static/media/zipper_front.fef4712e.jpg",
-    "static/media/zipper_illustration.jpeg": "/my-site/static/media/zipper_illustration.c37964d0.jpeg",
-    "static/media/zipper_sketch.jpeg": "/my-site/static/media/zipper_sketch.104bf2b3.jpeg"
+    "static/media/web.png": "/my-site/static/media/web.3e9dca9a.png"
   }
 }
